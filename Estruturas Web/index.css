@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 461px;
+    width: 100%;
+
+    background: linear-gradient(#1E52B4, #002777);
+    padding-top: 29px;
+}
+
+header .CabecalhoCima {
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: space-around;
+}
+
+header .CabecalhoCima .direita {
+    display: flex;
+    border: 1px solid black;
+
+    width: 36%;
+    height: 25px;
+
+    align-items: center;
+}
+
+header .CabecalhoCima .direita .nav {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60%;
+
+}
+
+header .CabecalhoCima .direita .button {
+    display: flex;
+    
+    width: 151px;
+    height: 35px;
+
+    padding: 10px 5px 10px 30px;
+    border-radius: 8px;
+
+}
